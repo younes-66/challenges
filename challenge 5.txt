@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+    float celsius;
+    printf("entrez la température en degrés Celsius:");
+    scanf("%f",&celsius);
+    
+    if(celsius<0) {
+        printf("état de l'eau:solide\n");
+    }else if (celsius>=0 && celsius < 100) {
+        printf("état de l'eau:liquide\n");
+    }else{
+     printf("état de l'eau:Gaz\n");
+    }
+
+    return 0;
+
+}  
