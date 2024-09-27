@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+    char ch;
+    printf("Entre un caractère :");
+    scanf("%c",&ch);
+    ch = (ch>='A'&& ch<='Z') ?ch + 32: ch;
+    switch (ch){
+     case 'a':
+     case 'e':
+     case 'i':
+     case 'o':
+     case 'u':
+       printf("le caractére que vous avez entre n'est pas une voyelle.\n");
+     break;
+    }
+
+    return 0;
+}

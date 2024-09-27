@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+        printf("entre le numéro:");
+        scanf("%f",&num);
+    if (num%2==0) {
+        printf("Nombre pair");
+    }else{
+        printf("Nombre impair");
+    
+}
+
+    return 0;
+}

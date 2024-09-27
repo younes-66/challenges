@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,somme;
+    printf("Entre le premier entier:");
+    scanf("%",&a);
+    printf("Entre le deuxième entier:");
+    scanf("%d",&b);
+    somme = a+b;
+    if(a==b) {
+      somme = somme * 3;
+      printf("Le résultat estb: %d\n",somme);
+        
+    }
+
+    return 0;
+}
