@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int tableaux[10];
+    printf("entrez un numbre\n");
+    for(int i=1;i<=10;i++) {
+        printf("tableaux[%d]=",i);
+        scanf("%d",&tableaux[i]);
+        
+    }
+    
+    
+
+    return 0;
+}
